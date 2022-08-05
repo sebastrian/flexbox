@@ -1,16 +1,24 @@
 body {
   background-image: url("https://images.unsplash.com/photo-1572816703439-d8b34c4dc93f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80");
-  backgrobund-color: red;
+  background-color: red;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.header {
+  display: flex;
+}
 .box {
-  height: 30vh;
-  width: 100vw;
+  height: 40vh;
+  width: 120vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/web_first_images_release_0.png?itok=eP3obzhq");
 }
 .container1 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .encabezado {
   background-image: url("https://images.unsplash.com/photo-1658901097893-cfe9605ca208?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80");
@@ -37,6 +45,7 @@ body {
 .container2 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .logo {
   background-image: url("https://images.unsplash.com/photo-1659039807594-358e61bdfb5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
@@ -45,7 +54,7 @@ body {
   font-size: 24px;
   display: flex;
   height: 20vh;
-  width: 50vw;
+  width: 20vw;
 }
 .menu2 {
   background-image: url("https://images.unsplash.com/photo-1641058910494-b441de2d5bf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=932&q=80");
@@ -54,5 +63,5 @@ body {
   font-size: 24px;
   display: flex;
   height: 20vh;
-  width: 50vw;
+  width: 60vw;
 }
